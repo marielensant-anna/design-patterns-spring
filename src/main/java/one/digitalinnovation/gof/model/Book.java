@@ -14,13 +14,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
 /**
- * Os atributos desse modelo foram gerados automaticamente pelo site
- * jsonschema2pojo.org. Para isso, usamos o JSON de retorno da API do ViaCEP.
- * 
- * @see <a href="https://www.jsonschema2pojo.org">jsonschema2pojo.org</a>
- * @see <a href="https://viacep.com.br">ViaCEP</a>
- * 
- * @author falvojr
+ * @see <a href="h"https://brasilapi.com.br/docs#tag/ISBN">Brasil API ISBN</a>
  */
 @Entity
 public class Book {
@@ -37,7 +31,7 @@ public class Book {
         
 	private String publishers;
         
-        @Column(length = 1000) // Assuming synopsis can be quite long
+        @Column(length = 1000) 
 	private String synopsis;
         
          @Embedded
